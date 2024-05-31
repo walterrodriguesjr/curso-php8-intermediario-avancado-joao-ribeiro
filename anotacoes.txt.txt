@@ -1,0 +1,6 @@
+https://www.youtube.com/watch?v=iDEuQjITm0E&list=PLXik_5Br-zO9Z8l3CE8zaIBkVWjHOboeL&index=1
+
+1-INTRODUÇÃO AO CURSO
+-PHP linguagem server side, serve para escutar script dentro do servidor web(back-end)
+-na programação existem várias formas de se resolver o mesmo problema 
+
