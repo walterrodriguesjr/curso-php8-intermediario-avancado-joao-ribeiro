@@ -4,3 +4,24 @@ https://www.youtube.com/watch?v=iDEuQjITm0E&list=PLXik_5Br-zO9Z8l3CE8zaIBkVWjHOb
 -PHP linguagem server side, serve para escutar script dentro do servidor web(back-end)
 -na programação existem várias formas de se resolver o mesmo problema 
 
+2-VÁRIAS FORMAS DE UTILIZAR O ECHO
+-o 'echo' é uma das principais funcionalidades do php para se imprimir algo na tela 
+-o 'print' tem a mesma funcionalidade, porem é mais lenta e tem menos potencial 
+-é possível injetar conteudo PHP diretamente no conteúdo HTML 
+
+3-PRINT EM VEZ DE ECHO
+-o print apesar de ser semelhante ao echo, tem algumas particularidades como: 
+    -aceita somente 1 argumento, ou seja, se for dar um print em mais de uma variável, separando por 
+        vírgula, ele não aceita, diferentemente do echo 
+    
+4-COMO APRESENTAR CICLOS DE PHP NO HTML
+-é usar as tags PHP dentro do conteúdo HTML para injetar código php 
+-seguindo a estrutura de sintaxes corretas abrindo e fechando as tags php e os ciclos corretamente 
+
+5-INSTRUÇÕES CONDICIONAIS DO PHP NO HTML 
+-a lógica para uso de estruturas condicionais PHP dentro do conteúdo HTML é a mesma 
+
+6-EXERCÍCIO - CONSTRUIR UMA TABELA HTML A PARTIR DE UM ARRAY
+-ok 
+
+7-
