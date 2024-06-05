@@ -24,4 +24,51 @@ https://www.youtube.com/watch?v=iDEuQjITm0E&list=PLXik_5Br-zO9Z8l3CE8zaIBkVWjHOb
 6-EXERCÍCIO - CONSTRUIR UMA TABELA HTML A PARTIR DE UM ARRAY
 -ok 
 
-7-
+7-TRIM, LTRIM, RTRIM E PARÂMETROS
+-trim = serve para remover espaços em branco e outros caracteres do inicio e do final de uma string 
+    -é possível tmb, passando além do parâmetro, um argumento, informar qual ou quais caracteres é para ser removido. trim($a, 'avem'); 
+    -serve apenas para remover caracteres, e não para substituir 
+
+8-UPPERCASE E LOWERCASE, MUITA ATENÇÃO
+-são métodos nativos do PHP para converter os caracteres de uma string para letras maiúsculas ou minúsculas 
+-strtoupper() = significar 'string to upper case', serve para converter para maiúsculas 
+-strtolower() = significa 'string to lower', serve para converter para minúsculas 
+por padrão, estes 2 métodos não convertem caracteres que usam acento, sendo necessário, usar o método 'multibytes': mb_strtoupper()
+-existem métodos para se converter para maiúsculas ou minúsculas: ucfirst(), lcfirst()
+-estes são métodos nativos do php para manipulação de dados tipo string 
+
+9-STRLEN, RESULTADOS COM DIFERENTES TIPOS E MB STRLEN
+-strlen(), como o nome diz string length, comprimento da string, este método retorna a quantidade de caracteres de uma string 
+    -ele também contabiliza os espaços em branco 
+-também existe a versão 'multibytes', que serve para contabilizar corretamente, quantidade de caractes de string com acentos 
+
+10-STR REPEAT E STR PAD PARA OUPUTS MONOSPACED INTERESSANTES
+-str_repeat('caractere', quantidade de vezes), serve para imprimir repetições de dados 
+
+11-STR_CONTAINS, STR_STARTS_WITH E STR_ENDS_WITH
+-o método str_contains($dentroDestaVariavel, $existeEssaVariavel), serve para fazer verificação, retorna sempre um booleano 
+-existem tmb métodos para verificar se determinada string começa ou termina com determinado conteúdo. str_starts_with() e str_ends_with() 
+
+12-AS VÁRIAS NUANCES DA FUNÇÃO SUBSTR
+-o método nativo do PHP, substr() serve para capturar uma parte de uma string 
+-ex: substr($variavel, posição inicio, posição fim), serve para determinar onde será o início e o fim da captura de caracteres 
+
+13-EXPLODE E IMPLODE
+-explode = permite transformar uma string num array de strings. 
+    ex: uma string com vários nomes separados por vírgula, se transformam em um array 
+-implode = permite colar numa string um conjunto de elementos de uma array
+-ambos servem para manipular e converter dados, de string para array, e de array para string. 
+-o método 'join' pode fazer a mesma coisa que um implode
+ 
+ 14-STR REPLACE
+-tem a funcionalidade de substituir algum trecho de uma string 
+-a função espera 3 parâmetros, o primeiro é procura por, depois substitui por, e o terceiro, na variável tal. 
+-str_replace()
+
+15-STR_SPLIT E MB_STR_SPLIT
+-tem a funcionalidade de, como o próprio nome diz, separar string 
+-permite criar um array de caracteres a partir de uma string, sendo que cada caractere da frase será um item do array, com seu respectivo índice. 
+
+16-STRSTR
+-serve para que, na variável informada, a partir do caractere informado, será retornado o restante da referida string 
+
