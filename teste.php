@@ -1,5 +1,4 @@
 <?php 
-
-$a = "Frase de testes";
-$b = strstr($a, 'de');
-echo $b;
+for ($i=0; $i < 50; $i++) { 
+    echo $i . PHP_EOL;
+}

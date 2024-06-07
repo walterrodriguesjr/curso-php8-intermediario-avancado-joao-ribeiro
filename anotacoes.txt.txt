@@ -72,3 +72,31 @@ por padrão, estes 2 métodos não convertem caracteres que usam acento, sendo n
 16-STRSTR
 -serve para que, na variável informada, a partir do caractere informado, será retornado o restante da referida string 
 
+17-STRPOS
+-este método serve para verificar a primeira ocorrência da string informada no parâmetro, começa a string ou caractere informado no parâmetro da função 
+-só aceita string
+
+18-STRRPOS 
+-semelhante a anterior, porém procura a última ocorrência da string informada no parâmetro
+
+19-STRIPOS E STRRIPOS
+-semelhante as 2 anteriores, porem, verifica tmb se o caractere é maiúsculo ou minúsculo 
+
+20-NUMBER FORMAT
+-muito útil para valores monetários 
+
+21-CONFIGURAR PHP PARA USO NO TERMINAL
+-ok 
+
+22-COMO USAR O PHP NO TERMINAL
+-CLI = command line interface, permite executar instruções de forma simples.
+-SAPI = server application programming interface 
+-é usar o php em linha de comando 
+
+23-EXERCÍCIOS DE PHP NO TERMINAL
+-ok 
+
+24-ARGV NA CLI DO PHP
+-ok 
+
+
