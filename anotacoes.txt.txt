@@ -99,4 +99,18 @@ por padrão, estes 2 métodos não convertem caracteres que usam acento, sendo n
 24-ARGV NA CLI DO PHP
 -ok 
 
+25-ARGC E NOVOS EXERCÍCIOS NA CLI DO PHP
+-ok 
+
+26-INTRODUÇÃO ÀS FUNÇÕES DE FORMATAÇÃO DE STRINGS
+-são as funções nativas do php para formatar strings
+-printf = print format. permite após a string, incluir parâmetros que irão substituir o %s na string. 
+
+27-PERCEBER COMO FUNCIONA SPRINTF PARTE 1 DE 2
+-ok
+
+28-PERCEBER COMO FUNCIONA SPRINTF PARTE 2 DE 2
+-ok 
+
+
 
